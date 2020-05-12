@@ -1,10 +1,10 @@
 #title{
   background-color: #ff4c68;
+  color:#fff;
 }
 
 body{
   font-family: 'Montserrat', sans-serif;
-  color:#fff;
 }
 
 h1{
@@ -15,7 +15,7 @@ h1{
 }
 
 .container-fluid{
-  padding:3% 15%;
+  padding:3% 15% 7%;
 }
 
 /* nav bar */
@@ -52,5 +52,91 @@ h1{
 .title-images{
   width:60%;
   transform: rotate(25deg);
-  margin:
+  position: absolute;
+  right: 30%;
+}
+
+/* features section */
+
+#features{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+
+}
+
+.features-box{
+  padding:5%;
+}
+
+h3{
+  font-family: 'Montserrat-bold',sans-serif;
+  font-weight: bolder;
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* testimonials sections */
+
+#testimonial{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h2{
+  font-family: 'Montserrat-bold',sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+
+.first-text{
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+/* press section */
+.press-logo{
+  width:15%;
+  margin: 20px 20px 15px;
+}
+
+/* pricing section */
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding:3% 2%;
 }
